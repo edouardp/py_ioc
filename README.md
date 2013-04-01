@@ -9,7 +9,7 @@ it's construction.
 Usage
 =====
 
-'''python
+```python
 from IOC import ioc, Container
 
 @ioc
@@ -40,4 +40,4 @@ a.add(1,2)
 # Outputs:
 #   Logging 'Adding 2 and 3' to screen
 # Returns:
-# 3'''
+# 3```
