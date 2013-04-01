@@ -40,4 +40,5 @@ a.add(1,2)
 # Outputs:
 #   Logging 'Adding 1 and 2' to file 'fnord.txt'
 # Returns:
-# 3```
+# 3
+```
