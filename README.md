@@ -9,6 +9,7 @@ it's construction.
 Usage
 =====
 
+'''python
 from IOC import ioc, Container
 
 @ioc
@@ -23,7 +24,6 @@ class FileLogger:
     def log(self, s):
         print "Logging '{0}' to file '{1}'".format(s, self.config.logfile)
 
-
 @ioc
 class Adder:
     def __init__(self, logger=None):
@@ -33,9 +33,11 @@ class Adder:
         return a+b 
 
 c = Container()
+c.add_class_factories(logger=FileLogger, config=Config)
+c.add_instance(logfile='fnord.txt')
 a = c.Adder()
 a.add(1,2)
 # Outputs:
 #   Logging 'Adding 2 and 3' to screen
 # Returns:
-# 3
+# 3'''
