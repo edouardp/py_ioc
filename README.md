@@ -54,7 +54,10 @@ in static languages like Java or C#.
 
 To be __useful__, in that it can be used to solve real world problems.
 
-To be as __small__, so that it is easy to understand, maintain and extend.
+To be __small__, so that it is easy to understand, maintain and extend.
+
+To be __retrofittable__, so it can be applied to existing classes without
+needing them to be modified first.
 
 
 TODO
