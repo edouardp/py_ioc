@@ -48,8 +48,8 @@ Goals
 
 To by __pythonic__, meaning that the implementation is as simple and direct as
 is reasonable, and that there is as little "magic" as possible. It also
-means that only that parts of IOC/DI that meake sense in Python are implemented,
-and none of the patterns that are nessessary purely because of being implmented
+means that only those parts of IOC/DI that make sense in Python are implemented,
+and none of the parts that are nessessary purely because of being implmented
 in static languages like Java or C#.
 
 To be __useful__, in that it can be used to solve real world problems.
