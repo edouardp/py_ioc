@@ -38,6 +38,6 @@ c.add_instance(logfile='fnord.txt')
 a = c.Adder()
 a.add(1,2)
 # Outputs:
-#   Logging 'Adding 2 and 3' to screen
+#   Logging 'Adding 1 and 2' to file 'fnord.txt'
 # Returns:
 # 3```
