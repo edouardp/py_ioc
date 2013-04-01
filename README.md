@@ -46,6 +46,6 @@ a.add(1,2)
 TODO
 ----
 
-- [ ] Handle classes without __init__() methods
-- [ ] Handle different objects lifetimes (singleton and weak singleton)
-- [ ] Handle error paths
+- Handle classes without __init__() methods
+- Handle different objects lifetimes (singleton and weak singleton)
+- Handle error paths
