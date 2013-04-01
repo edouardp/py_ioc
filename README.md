@@ -65,4 +65,5 @@ TODO
 
 - Handle classes without __init__() methods
 - Handle different objects lifetimes (singleton and weak singleton)
+- Handle post-construction setters
 - Handle error paths
